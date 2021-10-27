@@ -9,26 +9,30 @@ import Foundation
 
 print("Hello, World!")
 
-let mallardDuck: Duck = MallardDuck(flyBehaviour: FlyWithWings(), quackBehaviour: Quack())
+let mallardDuck: Duck = MallardDuck()
 mallardDuck.performQuack()
 mallardDuck.swim()
 mallardDuck.display()
 mallardDuck.performFly()
 
-let redheadDuck = RedheadDuck(flyBehaviour: FlyWithWings(), quackBehaviour: Quack())
+let redheadDuck = RedheadDuck()
 redheadDuck.performQuack()
 redheadDuck.swim()
 redheadDuck.display()
 redheadDuck.performFly()
 
-let rubberDuck = RubberDuck(flyBehaviour: NoFlying(), quackBehaviour: Squeak())
+let rubberDuck = RubberDuck()
 rubberDuck.performQuack()
 rubberDuck.swim()
 rubberDuck.display()
 rubberDuck.performFly()
 
-let decoyDuck = DecoyDuck(flyBehaviour: NoFlying(), quackBehaviour: SilentQuack())
+let decoyDuck = DecoyDuck()
 decoyDuck.performQuack()
 decoyDuck.swim()
 decoyDuck.display()
 decoyDuck.performFly()
+
+decoyDuck.flyBehaviour = FlyRocketPowered()
+decoyDuck.performFly()
+

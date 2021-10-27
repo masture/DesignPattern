@@ -20,6 +20,7 @@
 		0C9236E92729CC8D00BEFC79 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236E82729CC8D00BEFC79 /* Quack.swift */; };
 		0C9236EB2729CCA300BEFC79 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EA2729CCA300BEFC79 /* Squeak.swift */; };
 		0C9236ED2729CCB600BEFC79 /* SilentQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */; };
+		0C9236F12729CE9F00BEFC79 /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236F02729CE9F00BEFC79 /* FlyRocketPowered.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		0C9236E82729CC8D00BEFC79 /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
 		0C9236EA2729CCA300BEFC79 /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
 		0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentQuack.swift; sourceTree = "<group>"; };
+		0C9236F02729CE9F00BEFC79 /* FlyRocketPowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				0C9236DF2729C88F00BEFC79 /* FlyBehaviour.swift */,
 				0C9236E42729CC3C00BEFC79 /* FlyWithWings.swift */,
 				0C9236E62729CC4F00BEFC79 /* NoFlying.swift */,
+				0C9236F02729CE9F00BEFC79 /* FlyRocketPowered.swift */,
 			);
 			path = Flying;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				0C9236E72729CC4F00BEFC79 /* NoFlying.swift in Sources */,
 				0C9236E52729CC3C00BEFC79 /* FlyWithWings.swift in Sources */,
 				0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */,
+				0C9236F12729CE9F00BEFC79 /* FlyRocketPowered.swift in Sources */,
 				0C9236E92729CC8D00BEFC79 /* Quack.swift in Sources */,
 				0C9236EB2729CCA300BEFC79 /* Squeak.swift in Sources */,
 				0C9236CE27298E2C00BEFC79 /* main.swift in Sources */,

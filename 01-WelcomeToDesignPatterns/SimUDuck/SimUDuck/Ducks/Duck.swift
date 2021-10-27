@@ -7,18 +7,21 @@
 
 import Foundation
 
-class Duck: NSObject {
+protocol Duck {
     
-    var flyBehaviour: FlyBehaviour
-    var quackBehaviour: QuackBehaviour
+    var flyBehaviour: FlyBehaviour { get set }
+    var quackBehaviour: QuackBehaviour { get set }
     
-    init(flyBehaviour: FlyBehaviour, quackBehaviour: QuackBehaviour) {
-        self.flyBehaviour = flyBehaviour
-        self.quackBehaviour = quackBehaviour
-        
-        super.init()
-    }
+    func performQuack()
     
+    func swim()
+    
+    func display()
+    
+    func performFly()
+}
+
+extension Duck {
     func performQuack() {
         quackBehaviour.quack()
     }
@@ -27,14 +30,8 @@ class Duck: NSObject {
         print("I am swimming!")
     }
     
-    func display() {
-        fatalError("This is not supposed to be instantiated.")
-    }
-    
     func performFly() {
         flyBehaviour.fly()
     }
 }
-
-
 
