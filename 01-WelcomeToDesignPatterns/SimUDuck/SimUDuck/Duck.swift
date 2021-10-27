@@ -19,6 +19,10 @@ class Duck: NSObject {
     func display() {
         fatalError("This is not supposed to be instantiated.")
     }
+    
+    func fly() {
+        print("The duck, \(self.className) is flying.")
+    }
 }
 
 

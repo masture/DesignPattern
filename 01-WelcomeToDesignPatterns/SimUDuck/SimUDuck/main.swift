@@ -13,14 +13,17 @@ let mallardDuck: Duck = MallardDuck()
 mallardDuck.quack()
 mallardDuck.swim()
 mallardDuck.display()
+mallardDuck.fly()
 
 let redheadDuck = RedheadDuck()
 redheadDuck.quack()
 redheadDuck.swim()
 redheadDuck.display()
+redheadDuck.fly()
 
 let rubberDuck = RubberDuck()
 rubberDuck.quack()
 rubberDuck.swim()
 rubberDuck.display()
+rubberDuck.fly()
 
