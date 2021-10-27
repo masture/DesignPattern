@@ -12,6 +12,7 @@
 		0C9236D7272999C700BEFC79 /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D6272999C700BEFC79 /* MallardDuck.swift */; };
 		0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D827299A0400BEFC79 /* RedheadDuck.swift */; };
 		0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DA2729C49400BEFC79 /* RubberDuck.swift */; };
+		0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		0C9236D6272999C700BEFC79 /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
 		0C9236D827299A0400BEFC79 /* RedheadDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
 		0C9236DA2729C49400BEFC79 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyDuck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				0C9236D6272999C700BEFC79 /* MallardDuck.swift */,
 				0C9236D827299A0400BEFC79 /* RedheadDuck.swift */,
 				0C9236DA2729C49400BEFC79 /* RubberDuck.swift */,
+				0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */,
 			);
 			path = SimUDuck;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */,
 				0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */,
 				0C9236D52729970500BEFC79 /* Duck.swift in Sources */,
+				0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */,
 				0C9236CE27298E2C00BEFC79 /* main.swift in Sources */,
 				0C9236D7272999C700BEFC79 /* MallardDuck.swift in Sources */,
 			);

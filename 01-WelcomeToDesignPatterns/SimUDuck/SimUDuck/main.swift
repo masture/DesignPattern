@@ -27,3 +27,8 @@ rubberDuck.swim()
 rubberDuck.display()
 rubberDuck.fly()
 
+let decoyDuck = DecoyDuck()
+decoyDuck.quack()
+decoyDuck.swim()
+decoyDuck.display()
+decoyDuck.fly()
