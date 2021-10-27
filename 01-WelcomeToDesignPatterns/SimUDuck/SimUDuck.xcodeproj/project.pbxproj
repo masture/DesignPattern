@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0C9236CE27298E2C00BEFC79 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236CD27298E2C00BEFC79 /* main.swift */; };
 		0C9236D52729970500BEFC79 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D42729970500BEFC79 /* Duck.swift */; };
+		0C9236D7272999C700BEFC79 /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D6272999C700BEFC79 /* MallardDuck.swift */; };
+		0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D827299A0400BEFC79 /* RedheadDuck.swift */; };
+		0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DA2729C49400BEFC79 /* RubberDuck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		0C9236CA27298E2C00BEFC79 /* SimUDuck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimUDuck; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9236CD27298E2C00BEFC79 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0C9236D42729970500BEFC79 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		0C9236D6272999C700BEFC79 /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		0C9236D827299A0400BEFC79 /* RedheadDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
+		0C9236DA2729C49400BEFC79 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				0C9236CD27298E2C00BEFC79 /* main.swift */,
 				0C9236D42729970500BEFC79 /* Duck.swift */,
+				0C9236D6272999C700BEFC79 /* MallardDuck.swift */,
+				0C9236D827299A0400BEFC79 /* RedheadDuck.swift */,
+				0C9236DA2729C49400BEFC79 /* RubberDuck.swift */,
 			);
 			path = SimUDuck;
 			sourceTree = "<group>";
@@ -123,8 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */,
+				0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */,
 				0C9236D52729970500BEFC79 /* Duck.swift in Sources */,
 				0C9236CE27298E2C00BEFC79 /* main.swift in Sources */,
+				0C9236D7272999C700BEFC79 /* MallardDuck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

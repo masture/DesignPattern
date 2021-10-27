@@ -22,14 +22,4 @@ class Duck: NSObject {
 }
 
 
-class MallardDuck: Duck {
-    override func display() {
-        print("I am a Mallard Duck.")
-    }
-}
 
-class RedheadDuck: Duck {
-    override func display() {
-        print("I am a Redhead Duck.")
-    }
-}

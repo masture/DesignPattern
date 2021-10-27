@@ -19,3 +19,8 @@ redheadDuck.quack()
 redheadDuck.swim()
 redheadDuck.display()
 
+let rubberDuck = RubberDuck()
+rubberDuck.quack()
+rubberDuck.swim()
+rubberDuck.display()
+
