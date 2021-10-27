@@ -36,3 +36,9 @@ decoyDuck.performFly()
 decoyDuck.flyBehaviour = FlyRocketPowered()
 decoyDuck.performFly()
 
+let duckCall = DuckCall()
+duckCall.performQuack()
+duckCall.swim()
+duckCall.display()
+duckCall.performFly()
+

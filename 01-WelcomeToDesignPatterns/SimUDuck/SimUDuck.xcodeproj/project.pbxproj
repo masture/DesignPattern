@@ -21,6 +21,7 @@
 		0C9236EB2729CCA300BEFC79 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EA2729CCA300BEFC79 /* Squeak.swift */; };
 		0C9236ED2729CCB600BEFC79 /* SilentQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */; };
 		0C9236F12729CE9F00BEFC79 /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236F02729CE9F00BEFC79 /* FlyRocketPowered.swift */; };
+		0C9236F32729D1FD00BEFC79 /* DuckCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236F22729D1FD00BEFC79 /* DuckCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		0C9236EA2729CCA300BEFC79 /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
 		0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentQuack.swift; sourceTree = "<group>"; };
 		0C9236F02729CE9F00BEFC79 /* FlyRocketPowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
+		0C9236F22729D1FD00BEFC79 /* DuckCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0C9236D827299A0400BEFC79 /* RedheadDuck.swift */,
 				0C9236DA2729C49400BEFC79 /* RubberDuck.swift */,
 				0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */,
+				0C9236F22729D1FD00BEFC79 /* DuckCall.swift */,
 			);
 			path = Ducks;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */,
 				0C9236E02729C88F00BEFC79 /* FlyBehaviour.swift in Sources */,
 				0C9236D52729970500BEFC79 /* Duck.swift in Sources */,
+				0C9236F32729D1FD00BEFC79 /* DuckCall.swift in Sources */,
 				0C9236E72729CC4F00BEFC79 /* NoFlying.swift in Sources */,
 				0C9236E52729CC3C00BEFC79 /* FlyWithWings.swift in Sources */,
 				0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */,
