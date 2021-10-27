@@ -13,6 +13,13 @@
 		0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236D827299A0400BEFC79 /* RedheadDuck.swift */; };
 		0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DA2729C49400BEFC79 /* RubberDuck.swift */; };
 		0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */; };
+		0C9236E02729C88F00BEFC79 /* FlyBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236DF2729C88F00BEFC79 /* FlyBehaviour.swift */; };
+		0C9236E32729C8CA00BEFC79 /* QuackBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236E22729C8CA00BEFC79 /* QuackBehaviour.swift */; };
+		0C9236E52729CC3C00BEFC79 /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236E42729CC3C00BEFC79 /* FlyWithWings.swift */; };
+		0C9236E72729CC4F00BEFC79 /* NoFlying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236E62729CC4F00BEFC79 /* NoFlying.swift */; };
+		0C9236E92729CC8D00BEFC79 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236E82729CC8D00BEFC79 /* Quack.swift */; };
+		0C9236EB2729CCA300BEFC79 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EA2729CCA300BEFC79 /* Squeak.swift */; };
+		0C9236ED2729CCB600BEFC79 /* SilentQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +42,13 @@
 		0C9236D827299A0400BEFC79 /* RedheadDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
 		0C9236DA2729C49400BEFC79 /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
 		0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyDuck.swift; sourceTree = "<group>"; };
+		0C9236DF2729C88F00BEFC79 /* FlyBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehaviour.swift; sourceTree = "<group>"; };
+		0C9236E22729C8CA00BEFC79 /* QuackBehaviour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehaviour.swift; sourceTree = "<group>"; };
+		0C9236E42729CC3C00BEFC79 /* FlyWithWings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
+		0C9236E62729CC4F00BEFC79 /* NoFlying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFlying.swift; sourceTree = "<group>"; };
+		0C9236E82729CC8D00BEFC79 /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
+		0C9236EA2729CCA300BEFC79 /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentQuack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +82,52 @@
 			isa = PBXGroup;
 			children = (
 				0C9236CD27298E2C00BEFC79 /* main.swift */,
+				0C9236E12729C89500BEFC79 /* Behaviours */,
+				0C9236DE2729C87400BEFC79 /* Ducks */,
+			);
+			path = SimUDuck;
+			sourceTree = "<group>";
+		};
+		0C9236DE2729C87400BEFC79 /* Ducks */ = {
+			isa = PBXGroup;
+			children = (
 				0C9236D42729970500BEFC79 /* Duck.swift */,
 				0C9236D6272999C700BEFC79 /* MallardDuck.swift */,
 				0C9236D827299A0400BEFC79 /* RedheadDuck.swift */,
 				0C9236DA2729C49400BEFC79 /* RubberDuck.swift */,
 				0C9236DC2729C71A00BEFC79 /* DecoyDuck.swift */,
 			);
-			path = SimUDuck;
+			path = Ducks;
+			sourceTree = "<group>";
+		};
+		0C9236E12729C89500BEFC79 /* Behaviours */ = {
+			isa = PBXGroup;
+			children = (
+				0C9236EE2729CCCC00BEFC79 /* Flying */,
+				0C9236EF2729CCFA00BEFC79 /* Quacking */,
+			);
+			path = Behaviours;
+			sourceTree = "<group>";
+		};
+		0C9236EE2729CCCC00BEFC79 /* Flying */ = {
+			isa = PBXGroup;
+			children = (
+				0C9236DF2729C88F00BEFC79 /* FlyBehaviour.swift */,
+				0C9236E42729CC3C00BEFC79 /* FlyWithWings.swift */,
+				0C9236E62729CC4F00BEFC79 /* NoFlying.swift */,
+			);
+			path = Flying;
+			sourceTree = "<group>";
+		};
+		0C9236EF2729CCFA00BEFC79 /* Quacking */ = {
+			isa = PBXGroup;
+			children = (
+				0C9236E22729C8CA00BEFC79 /* QuackBehaviour.swift */,
+				0C9236E82729CC8D00BEFC79 /* Quack.swift */,
+				0C9236EA2729CCA300BEFC79 /* Squeak.swift */,
+				0C9236EC2729CCB600BEFC79 /* SilentQuack.swift */,
+			);
+			path = Quacking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,11 +189,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C9236D927299A0400BEFC79 /* RedheadDuck.swift in Sources */,
+				0C9236E32729C8CA00BEFC79 /* QuackBehaviour.swift in Sources */,
 				0C9236DB2729C49400BEFC79 /* RubberDuck.swift in Sources */,
+				0C9236E02729C88F00BEFC79 /* FlyBehaviour.swift in Sources */,
 				0C9236D52729970500BEFC79 /* Duck.swift in Sources */,
+				0C9236E72729CC4F00BEFC79 /* NoFlying.swift in Sources */,
+				0C9236E52729CC3C00BEFC79 /* FlyWithWings.swift in Sources */,
 				0C9236DD2729C71A00BEFC79 /* DecoyDuck.swift in Sources */,
+				0C9236E92729CC8D00BEFC79 /* Quack.swift in Sources */,
+				0C9236EB2729CCA300BEFC79 /* Squeak.swift in Sources */,
 				0C9236CE27298E2C00BEFC79 /* main.swift in Sources */,
 				0C9236D7272999C700BEFC79 /* MallardDuck.swift in Sources */,
+				0C9236ED2729CCB600BEFC79 /* SilentQuack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
